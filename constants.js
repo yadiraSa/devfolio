@@ -45,9 +45,9 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "An Enthusiastic Junior Web Developer",
+  "Really love Front End 💖",
+  "For a better world without 404's",
 ];
 
 export const SOCIAL_LINKS = [
