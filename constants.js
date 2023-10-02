@@ -1,13 +1,13 @@
 export const METADATA = {
   author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  title: "Portfolio | Yadira",
   description:
-    "Shubh Porwal is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
+    "Yadira Salazar is a Web Developer from Saltillo, interested in crafting beautiful and functional applications.",
   siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubh731",
+  twitterHandle: "",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Developer",
+    "Yadira Salazar",
+    "Web Developer",
     "Web Developer",
     "React Native Developer",
     "Software Developer",
@@ -53,23 +53,23 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mail: yadirasalazar.ysa@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/yadira-sa/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/yadiraSa",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "",
   },
   {
     name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "",
   },
 ];
 

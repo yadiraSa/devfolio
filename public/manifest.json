@@ -9,7 +9,7 @@
   "description": "Shubh Porwal's Portfolio Website.",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/icon-128x128.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
