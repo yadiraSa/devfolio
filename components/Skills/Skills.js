@@ -49,8 +49,8 @@ const Skills = () => {
               My Skills
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
-              I like to take responsibility to craft aesthetic user experience
-              using modern frontend architecture.{" "}
+              I really like to plan every part of the app, imagine first then
+              building 🧠.{" "}
             </h2>
           </div>
           <div className="mt-10">
@@ -85,38 +85,36 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-wrap mt-10">
-            <div className="mr-16 xs:mr-20 mb-6">
-              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
-                DATABASES
-              </h3>
-              <div className="flex flex-wrap gap-6 transform-gpu seq">
-                {SKILLS.databases.map((skill) => (
-                  <Image
-                    key={skill}
-                    src={`/skills/${skill}.svg`}
-                    alt={skill}
-                    width={50}
-                    height={50}
-                  />
-                ))}
-              </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
+              DATABASES
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu seq">
+              {SKILLS.databases.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={50}
+                  height={50}
+                />
+              ))}
             </div>
-            <div>
-              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
-                Other
-              </h3>
-              <div className="flex flex-wrap gap-6 transform-gpu seq">
-                {SKILLS.other.map((skill) => (
-                  <Image
-                    key={skill}
-                    src={`/skills/${skill}.svg`}
-                    alt={skill}
-                    width={50}
-                    height={50}
-                  />
-                ))}
-              </div>
+          </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
+              OTHER
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu seq">
+              {SKILLS.other.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={50}
+                  height={50}
+                />
+              ))}
             </div>
           </div>
         </div>
